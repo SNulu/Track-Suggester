@@ -20,27 +20,46 @@ $(document).ready(function() {
       trackPath = "Back-End Developer"
     }
 
-    if (question4Input === "designing") {
-        trackPath = "Front-End Developer"
+    if ((question4Input === "designing") &&
+        (trackPath === "Front-End Developer")) {
+      trackPath = "Front-End Developer"
+    } else if(trackPath === "Back-End Developer") {
+      trackPath = "Back-End Developer"
+    } else{
+      trackPath = "You need to re-evaluate your choices."
+    }
+
+    if ((question2Input === "front-end") &&
+        (trackPath === "Front-End Developer")) {
+      trackPath = "Front-End Developer"
+    } else if(trackPath === "Back-End Developer") {
+      trackPath = "Back-End Developer"
     } else {
-      trackPath = "Back-End Developer"
+      trackPath = "You need to re-evaluate your choices."
     }
 
-
-    if (question5Input === "interactive web applications") {
-        trackPath = "Front-End Developer"
-    } else  if((question5Input === "high-performance applications") ||
-               (question5Input === "internal software")){
+    if ((question5Input === "interactive web applications") &&
+        (trackPath === "Front-End Developer")){
+      trackPath = "Front-End Developer"
+    } else  if(((question5Input === "high-performance applications") ||
+               (question5Input === "internal software"))  &&
+               (trackPath === "Back-End Developer")){
       trackPath = "Back-End Developer"
+    } else{
+      trackPath = "You need to re-evaluate your choices."
     }
 
-    if (question3Input === "working for a large company on business   software")
-        trackPath = "Front-End Developer"
+    if ((question3Input === "working for a large company on business software") &&
+        (trackPath === "Front-End Developer")) {
+        trackPath === "Front-End Developer"
+     } else if(((question3Input === "working as an android developer") ||
+              (question3Input === "working for a startup/smaller companies")) &&
+              (trackPath === "Back-End Developer")) {
+        trackPath = "Back-End Developer"
+     } else {
+       trackPath = "You need to re-evaluate your choices."
+     }
 
-
-
-
-    alert('submit ' + question1Input + " " + question2Input + " " + question3Input + " " + question4Input + " " + question5Input)
     alert("Your trackpath is " + trackPath)
     event.preventDefault();
   });

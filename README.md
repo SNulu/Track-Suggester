@@ -5,11 +5,11 @@
 ### By _**Sanyu Prado**_
 
 ## Description
-_This survey project takes inputs from a form and outputs your career path based on choices given__
+_This survey project takes inputs from a form and outputs your career path based on choices given_
 
 ## Setup/Installation Requirements
 * _Clone this repository from github_
-* _Open a simple HTTP server in the top level of the cloned directory. For Mac, run the command in your terminal:_
+* _Open `index.html`_
 
 ## Technology Used
 _HTML, CSS Bootstrap, javaScript and jQuery_

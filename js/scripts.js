@@ -6,11 +6,11 @@ $(document).ready(function() {
     var question4Input = $("input#question4").val();
     var question5Input = $("input#question5").val();
 
-    // $("question1").text("");
-    // $("question2").text("");
-    // $("question3").text("");
-    // $("question4").text("");
-    // $("question5").text("");
+    $("#question1").val("");
+    $("#question2").val("");
+    $("#question3").val("");
+    $("#question4").val("");
+    $("#question5").val("");
 
     var trackPath = ""
 

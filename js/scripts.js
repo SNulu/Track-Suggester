@@ -60,8 +60,14 @@ $(document).ready(function() {
        trackPath = "You need to re-evaluate your choices."
      }
 
+    $("#result1").text(question1Input).val();
+    $("#result2").text(question2Input).val();
+    $("#result3").text(question3Input).val();
+    $("#result4").text(question4Input).val();
+    $("#result5").text(question5Input).val();
     $("#result").text(trackPath).val();
-    $("#careerTrack").show();
+    $(".careerTrack").fadeToggle();
+    $(".form-control").fadeToggle();
 
     event.preventDefault();
   });

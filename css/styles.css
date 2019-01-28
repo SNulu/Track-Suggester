@@ -16,6 +16,7 @@ h2 {
   font-family: sans-serif;
 
 }
-#careerTrack {
+.careerTrack {
   display: none;
+  color:  #b30000;
 }

@@ -60,7 +60,9 @@ $(document).ready(function() {
        trackPath = "You need to re-evaluate your choices."
      }
 
-    alert("Your trackpath is " + trackPath)
+    $("#result").text(trackPath).val();
+    $("#careerTrack").show();
+
     event.preventDefault();
   });
 });

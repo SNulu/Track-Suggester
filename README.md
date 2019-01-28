@@ -8,8 +8,8 @@
 _This survey project takes inputs from a form and outputs your career path based on choices given_
 
 ## Setup/Installation Requirements
-* _Clone this repository from github_
-* _Open `index.html`_
+* _Clone or download the repository [Track-Suggester](https://github.com/SNulu/Track-Suggester.git) repository from github_
+* _Open `index.html` on your favorite web-browser._
 
 ## Technology Used
 _HTML, CSS Bootstrap, javaScript and jQuery_
